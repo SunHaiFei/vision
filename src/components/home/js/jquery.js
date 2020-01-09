@@ -1,4 +1,4 @@
+//引入 导出
 import $ from 'jquery'
-window.$ = $
-window.jQuery = $
+
 export default $

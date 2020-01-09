@@ -5,14 +5,6 @@ module.exports = {
             test: /\.scss$/,
             loaders: ["style", "css", "sass"]
         }
-    ],
-    plugins: [
-        // new webpack.optimize.CommonsChunkPlugin('common.js'),
-        new webpack.ProvidePlugin({
-            jQuery: "jquery",
-            $: "jquery",
-            jquery: "jquery",
-            "window.jQuery": "jquery"
-        })
     ]
+		
 }
